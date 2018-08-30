@@ -1,0 +1,11 @@
+<launch>
+	<include file= "$(find tb3_gazebo)/launch/tb3_arena.launch"/>
+
+
+        <!-- Launch Joystick or RQT for controlling the robot -->   
+	<!-- node pkg="joy" type="joy_node" name="joystick" output="screen"/ -->
+	<!-- node pkg="tb3_teleop" type="teleop.py" name="joy2cmd_vel"/ -->
+
+
+
+</launch>
